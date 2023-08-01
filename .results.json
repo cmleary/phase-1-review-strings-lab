@@ -2,25 +2,25 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 9,
+    "passes": 10,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-07-31T18:15:17.619Z",
-    "end": "2023-07-31T18:15:18.036Z",
-    "duration": 417
+    "failures": 0,
+    "start": "2023-08-01T00:54:16.859Z",
+    "end": "2023-08-01T00:54:17.080Z",
+    "duration": 221
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,19 +62,14 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome G !' to contain 'Welcome, '",
-        "showDiff": false,
-        "actual": "Welcome G !",
-        "stack": "AssertionError: expected 'Welcome G !' to contain 'Welcome, '\n    at Context.<anonymous> (test/indexTest.js:43:37)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -87,32 +82,19 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "contains \"Welcome, \"",
-      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome G !' to contain 'Welcome, '",
-        "showDiff": false,
-        "actual": "Welcome G !",
-        "stack": "AssertionError: expected 'Welcome G !' to contain 'Welcome, '\n    at Context.<anonymous> (test/indexTest.js:43:37)\n    at process.processImmediate (node:internal/timers:476:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -152,9 +134,16 @@
       "err": {}
     },
     {
+      "title": "contains \"Welcome, \"",
+      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },

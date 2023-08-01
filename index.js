@@ -1,6 +1,6 @@
 // Write your code in this file!
 
-const currentUser = 'Grace Hopper';
+const currentUser = 'Grace Hopper'
 
 let welcomeMessage = "Welcome to Flatbook, "
 
@@ -10,6 +10,8 @@ let excitedWelcomeMessage = "WELCOME TO FLATBOOK, "
 
  excitedWelcomeMessage = excitedWelcomeMessage + currentUser.toUpperCase() + "!"
 
-let shortGreeting = `Welcome `
+let shortGreeting = `Welcome, `
 
-shortGreeting = shortGreeting + ${currentUser[0]} + `!`
+let nickName = `${currentUser[0]}`
+
+shortGreeting = shortGreeting + nickName + "!";
